@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: helppy
+  datasource:
+    url: db_url
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: db_username
+    password: db_password
+
+server:
+  port: 8090
